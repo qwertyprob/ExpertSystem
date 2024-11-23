@@ -10,11 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Data\connection.json" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Data\connection.json">
+    <None Include="wwwroot\Data\connection.json">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>

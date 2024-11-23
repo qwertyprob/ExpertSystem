@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{81EB77BF-BFC1-4535-8262-5DAA750764B9}|SystemExpert.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{81EB77BF-BFC1-4535-8262-5DAA750764B9}|SystemExpert.csproj|c:\\users\\user\\source\\repos\\systemexpert\\wwwroot\\data\\symptom.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{81EB77BF-BFC1-4535-8262-5DAA750764B9}|SystemExpert.csproj|solutionrelative:wwwroot\\data\\symptom.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81EB77BF-BFC1-4535-8262-5DAA750764B9}|SystemExpert.csproj|c:\\users\\user\\source\\repos\\systemexpert\\wwwroot\\data\\connection.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{81EB77BF-BFC1-4535-8262-5DAA750764B9}|SystemExpert.csproj|solutionrelative:wwwroot\\data\\connection.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81EB77BF-BFC1-4535-8262-5DAA750764B9}|SystemExpert.csproj|c:\\users\\user\\source\\repos\\systemexpert\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81EB77BF-BFC1-4535-8262-5DAA750764B9}|SystemExpert.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{81EB77BF-BFC1-4535-8262-5DAA750764B9}|SystemExpert.csproj|c:\\users\\user\\source\\repos\\systemexpert\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{81EB77BF-BFC1-4535-8262-5DAA750764B9}|SystemExpert.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -17,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{81EB77BF-BFC1-4535-8262-5DAA750764B9}|SystemExpert.csproj|c:\\users\\user\\source\\repos\\systemexpert\\model\\diseasedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81EB77BF-BFC1-4535-8262-5DAA750764B9}|SystemExpert.csproj|solutionrelative:model\\diseasedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81EB77BF-BFC1-4535-8262-5DAA750764B9}|SystemExpert.csproj|c:\\users\\user\\source\\repos\\systemexpert\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81EB77BF-BFC1-4535-8262-5DAA750764B9}|SystemExpert.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81EB77BF-BFC1-4535-8262-5DAA750764B9}|SystemExpert.csproj|c:\\users\\user\\source\\repos\\systemexpert\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -34,47 +42,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SystemExpert\\Dockerfile",
-              "RelativeDocumentMoniker": "Dockerfile",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\SystemExpert\\Dockerfile",
-              "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-23T14:09:02.031Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SystemExpert\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\SystemExpert\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "Components\\Pages\\Home.razor",
-              "ViewState": "AgIAACQAAAAAAAAAAAAuwDkAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-23T14:05:56.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SymptomData.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SystemExpert\\Model\\SymptomData.cs",
-              "RelativeDocumentMoniker": "Model\\SymptomData.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\SystemExpert\\Model\\SymptomData.cs",
-              "RelativeToolTip": "Model\\SymptomData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T14:05:46.19Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -97,7 +66,71 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "symptom.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SystemExpert\\wwwroot\\Data\\symptom.json",
+              "RelativeDocumentMoniker": "wwwroot\\Data\\symptom.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SystemExpert\\wwwroot\\Data\\symptom.json",
+              "RelativeToolTip": "wwwroot\\Data\\symptom.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-23T15:19:31.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "connection.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SystemExpert\\wwwroot\\Data\\connection.json",
+              "RelativeDocumentMoniker": "wwwroot\\Data\\connection.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SystemExpert\\wwwroot\\Data\\connection.json",
+              "RelativeToolTip": "wwwroot\\Data\\connection.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-23T14:33:54.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SystemExpert\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SystemExpert\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-23T14:09:02.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SystemExpert\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SystemExpert\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Components\\Pages\\Home.razor",
+              "ViewState": "AgIAACQAAAAAAAAAAAAwwDkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T14:05:56.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SymptomData.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SystemExpert\\Model\\SymptomData.cs",
+              "RelativeDocumentMoniker": "Model\\SymptomData.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SystemExpert\\Model\\SymptomData.cs",
+              "RelativeToolTip": "Model\\SymptomData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T14:05:46.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "DIseaseData.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SystemExpert\\Model\\DIseaseData.cs",
               "RelativeDocumentMoniker": "Model\\DIseaseData.cs",
@@ -105,25 +138,24 @@
               "RelativeToolTip": "Model\\DIseaseData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T14:05:40.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T14:05:40.376Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SystemExpert\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\SystemExpert\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T14:05:17.178Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SystemExpert\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "Components\\_Imports.razor",
@@ -131,8 +163,7 @@
               "RelativeToolTip": "Components\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-23T14:05:03.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T14:05:03.303Z"
             }
           ]
         },

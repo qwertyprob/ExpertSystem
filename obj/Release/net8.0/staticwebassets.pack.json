@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\User\\source\\repos\\SystemExpert\\wwwroot\\Data\\connection.json",
+      "PackagePath": "staticwebassets\\Data\\connection.json"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\SystemExpert\\wwwroot\\Data\\symptom.json",
+      "PackagePath": "staticwebassets\\Data\\symptom.json"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\SystemExpert\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
