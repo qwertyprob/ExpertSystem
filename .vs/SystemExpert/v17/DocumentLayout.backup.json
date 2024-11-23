@@ -74,8 +74,7 @@
               "RelativeToolTip": "wwwroot\\Data\\symptom.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-23T15:19:31.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T15:19:31.343Z"
             },
             {
               "$type": "Document",
@@ -87,8 +86,7 @@
               "RelativeToolTip": "wwwroot\\Data\\connection.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-23T14:33:54.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T14:33:54.36Z"
             },
             {
               "$type": "Document",
@@ -100,8 +98,7 @@
               "RelativeToolTip": "Dockerfile",
               "ViewState": "AgIAAAcAAAAAAAAAAAAowCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-23T14:09:02.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T14:09:02.031Z"
             },
             {
               "$type": "Document",
@@ -109,9 +106,9 @@
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SystemExpert\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\SystemExpert\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "Components\\Pages\\Home.razor",
-              "ViewState": "AgIAACQAAAAAAAAAAAAwwDkAAAAmAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SystemExpert\\Components\\Pages\\Home.razor*",
+              "RelativeToolTip": "Components\\Pages\\Home.razor*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-23T14:05:56.444Z",
               "EditorCaption": ""
@@ -150,8 +147,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T14:05:17.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T14:05:17.178Z"
             },
             {
               "$type": "Document",
