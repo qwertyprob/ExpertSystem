@@ -1,0 +1,156 @@
+﻿@page "/"
+@using Newtonsoft.Json
+@using SystemExpert.Model
+@rendermode InteractiveServer
+<PageTitle>Home</PageTitle>
+
+<div class="container d-flex flex-column justify-content-center align-items-center">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="text-center mb-5" style="font-size:5em;">Укажите симптомы</h1>
+        </div>
+        <div class="col-12">
+            @foreach (var index in SelectIndexes)
+            {
+                <select class="form-select form-select-lg mb-3" aria-label="Large select example" @onchange="(e) => UpdateSelectedSymptoms(e, index)">
+                    <option selected>Выберите...</option>
+                    @foreach (var symptom in symptoms)
+                    {
+                        <option value="@symptom">@symptom</option>
+                    }
+                </select>
+            }
+        </div>
+        <div class="col-12 d-flex flex-column justify-content-center ">
+            @if (!DisableAddButton)
+            {
+                <button type="button" class="btn btn-secondary fs-2 w-100 mb-3" @onclick="AddSelect" disabled="@DisableAddButton">
+                    +
+                </button>
+            }
+            else
+            {
+                <span class="fs-5 mb-2" style="color:red;">*Можно указать только три симптома!</span>
+            }
+            
+            
+        </div>
+        <div class="col-12 mt-4">
+            @if (filteredDiseases.Any())
+            {
+                <h2>Подходящие диагнозы:</h2>
+                <ul>
+                    @foreach (var disease in filteredDiseases)
+                    {
+                        <li>@disease</li>
+                    }
+                </ul>
+            }
+            else if (!string.IsNullOrEmpty(diseaseVerdict))
+            {
+                <h2>Диагноз: @diseaseVerdict</h2>
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    private const string JsonPath = @"./Data/connection.json";
+    private List<string> symptoms = new(); 
+    private Dictionary<string, List<string>> diseaseSymptoms = new(); 
+    private List<string> selectedSymptoms = new(); 
+    private string diseaseVerdict; 
+    private List<string> filteredDiseases = new(); 
+
+    private List<int> SelectIndexes = new() { 0 };
+    private const int MaxSelects = 3;
+    private bool DisableAddButton => SelectIndexes.Count >= MaxSelects;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadDiseasesAsync();
+    }
+
+
+    private async Task LoadDiseasesAsync()
+    {
+        if (File.Exists(JsonPath))
+        {
+            var jsonContent = await File.ReadAllTextAsync(JsonPath);
+            var diseaseData = JsonConvert.DeserializeObject<DiseaseData>(jsonContent);
+            diseaseSymptoms = diseaseData?.Symptoms ?? new Dictionary<string, List<string>>();
+            symptoms = diseaseSymptoms.Values.SelectMany(s => s).Distinct().ToList();
+        }
+    }
+
+
+    private void AddSelect()
+    {
+        if (SelectIndexes.Count < MaxSelects)
+        {
+            SelectIndexes.Add(SelectIndexes.Count);
+        }
+    }
+
+
+    private void UpdateSelectedSymptoms(ChangeEventArgs e, int index)
+    {
+        var selectedSymptom = e.Value.ToString();
+        if (!selectedSymptoms.Contains(selectedSymptom))
+        {
+            selectedSymptoms.Add(selectedSymptom);
+            FilterDiseasesBySymptom(selectedSymptom);
+        }
+    }
+
+
+    private void FilterDiseasesBySymptom(string selectedSymptom)
+    {
+        filteredDiseases.Clear();
+
+
+        foreach (var disease in diseaseSymptoms)
+        {
+            var diseaseName = disease.Key;
+            var diseaseSymptomsList = disease.Value;
+
+
+            if (diseaseSymptomsList.Contains(selectedSymptom))
+            {
+
+                if (!filteredDiseases.Contains(diseaseName))
+                {
+                    filteredDiseases.Add(diseaseName);
+                }
+            }
+        }
+    }
+
+
+    private void DetermineDisease()
+    {
+        diseaseVerdict = string.Empty;
+
+
+        if (!filteredDiseases.Any())
+        {
+
+            foreach (var disease in diseaseSymptoms)
+            {
+                var diseaseName = disease.Key;
+                var diseaseSymptomsList = disease.Value;
+
+
+                var intersection = selectedSymptoms.Intersect(diseaseSymptomsList).ToList();
+
+
+                if (intersection.Count >= diseaseSymptomsList.Count / 2)
+                {
+                    diseaseVerdict = diseaseName;
+                    break;
+                }
+            }
+        }
+    }
+}
+
